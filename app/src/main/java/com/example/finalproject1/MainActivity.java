@@ -84,6 +84,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 setFragment(galleryFragment);
                 break;
 
+
             case R.id.nav_logout:
 
                 FirebaseAuth.getInstance().signOut();
