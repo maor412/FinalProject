@@ -74,6 +74,7 @@ public class LoginActivity extends AppCompatActivity {
 
             Intent intent = new Intent(LoginActivity.this, MainActivity.class);
             startActivity(intent);
+            finish();
             // ...
 
 
@@ -84,20 +85,6 @@ public class LoginActivity extends AppCompatActivity {
             // ...
         }
 
-    }
-
-
-    public void signOut() {
-        // [START auth_fui_signout]
-        AuthUI.getInstance()
-                .signOut(this)
-                .addOnCompleteListener(new OnCompleteListener<Void>() {
-                    public void onComplete(@NonNull Task<Void> task) {
-                        // ...
-                    }
-                });
-
-        // [END auth_fui_signout]
     }
 
 

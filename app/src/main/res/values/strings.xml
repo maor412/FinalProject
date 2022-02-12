@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Tori app</string>
+    <string name="app_name" translatable="false">Tori app</string>
 
 
 
