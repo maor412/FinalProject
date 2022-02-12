@@ -68,7 +68,7 @@ public class HomeFragment extends Fragment {
             @Override
             public void editQueue(Queue q) {
                 AlertDialog.Builder builder = new AlertDialog.Builder(activity);
-                builder.setTitle("Update queue");
+                builder.setTitle(R.string.update_queue);
                 View addQueueDialogView = inflater.inflate(R.layout.addqueuedialog, null);
                 builder.setView(addQueueDialogView);
                 AlertDialog dialog = builder.create();
@@ -76,7 +76,7 @@ public class HomeFragment extends Fragment {
                 dialog_TXT_properties = addQueueDialogView.findViewById(R.id.dialog_TXT_properties);
                 dialog_BTN_addQueue = addQueueDialogView.findViewById(R.id.dialog_BTN_addQueue);
                 dialog_TP_queueTime = addQueueDialogView.findViewById(R.id.dialog_TP_queueTime);
-                dialog_BTN_addQueue.setText("Update Queue");
+                dialog_BTN_addQueue.setText(R.string.update_queue_BTN);
                 dialog_TXT_name.getEditText().setText(q.getName());
                 dialog_TP_queueTime.setHour(q.covertStringToDate().getHours());
                 dialog_TP_queueTime.setMinute(q.covertStringToDate().getMinutes());
@@ -135,7 +135,7 @@ public class HomeFragment extends Fragment {
 
 
                 AlertDialog.Builder builder = new AlertDialog.Builder(activity);
-                builder.setTitle("Add new queue");
+                builder.setTitle(R.string.add_new_queue);
                 View addQueueDialogView = inflater.inflate(R.layout.addqueuedialog, null);
                 builder.setView(addQueueDialogView);
                 AlertDialog dialog = builder.create();

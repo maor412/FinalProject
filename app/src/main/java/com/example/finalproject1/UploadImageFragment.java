@@ -110,9 +110,9 @@ public class UploadImageFragment extends Fragment {
             if(requestStatus){
                 upload_BTN_uploadImg.setEnabled(false);
                 upload_IMG_galleryImg.setImageResource(R.drawable.add_image);
-                Toast.makeText(activity, "Image uploaded!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(activity, R.string.image_upload_success, Toast.LENGTH_SHORT).show();
             }else{
-                Toast.makeText(activity, "Image upload failed", Toast.LENGTH_SHORT).show();
+                Toast.makeText(activity,R.string.image_upload_fail, Toast.LENGTH_SHORT).show();
 
             }
         }

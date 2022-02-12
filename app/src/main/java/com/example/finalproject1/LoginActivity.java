@@ -96,6 +96,7 @@ public class LoginActivity extends AppCompatActivity {
                         // ...
                     }
                 });
+
         // [END auth_fui_signout]
     }
 

@@ -11,11 +11,13 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 
 
 import com.google.android.material.navigation.NavigationView;
+import com.google.firebase.auth.FirebaseAuth;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -73,10 +75,18 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 uploadImageFragment.setActivity(MainActivity.this);
                 setFragment(uploadImageFragment);
                 break;
+
+
+
             case R.id.nav_gallery:
                 GalleryFragment galleryFragment = new GalleryFragment();
                 galleryFragment.setActivity(MainActivity.this);
                 setFragment(galleryFragment);
+                break;
+
+            case R.id.nav_logout:
+
+                FirebaseAuth.getInstance().signOut();
                 break;
         }
         drawerLayout.closeDrawers();

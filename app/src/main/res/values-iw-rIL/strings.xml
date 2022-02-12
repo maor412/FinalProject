@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">תורי</string>
+    <string name="nav_header_title">תורי</string>
+    <string name="menu_home">בית</string>
+    <string name="menu_gallery">גלריה</string>
+    <string name="menu_calendar">לוח שנה</string>
+    <string name="upload_image">העלאת תמונה</string>
+    <string name="menu_account">חשבון</string>
+    <string name="menu_share">שתף</string>
+    <string name="menu_logout">התנתק</string>
+    <string name="upload_image_gallery">העלאת תמונה לגלריה</string>
+    <string name="gallery_title">גלריה</string>
+    <string name="customer_name">שם מלא</string>
+    <string name="properties">פרטים (אופציונלי)</string>
+    <string name="add_queue_BTN">הוסף תור</string>
+    <string name="add_new_queue">הוסף תור חדש</string>
+    <string name="update_queue">עדכון תור</string>
+    <string name="update_queue_BTN">עדכן תור</string>
+
+
+    <!--גלריה-->
+    <string name="upload_image_BTN">העלה תמונה</string>
+    <string name="image_upload_success">תמונה עלתה בהצלחה!</string>
+    <string name="image_upload_fail">העלאה נכשלה</string>
+</resources>

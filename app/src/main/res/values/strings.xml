@@ -1,21 +1,20 @@
 <resources>
-    <string name="app_name">FinalProject1</string>
+    <string name="app_name">Tori app</string>
 
 
 
     <!--menu title-->
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
-    <string name="nav_header_desc">Navigation header</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="nav_header_title">Tori</string>
+    <string name="nav_header_subtitle" translatable="false">tori@gmail.com</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
 
 
     <!--menu-->
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_calendar">Calendar</string>
-    <string name="menu_list">Daily List</string>
     <string name="upload_image">Upload Image</string>
     <string name="menu_account">account</string>
     <string name="menu_share">Share</string>
@@ -23,7 +22,27 @@
 
 
     <!--Fragments titles-->
-    <string name="dayly_list_title">Dayly list</string>
     <string name="upload_image_gallery">Upload Image To Gallery</string>
     <string name="gallery_title">Gallery</string>
+
+    <!--Add queue dialog-->
+
+    <string name="add_new_queue">Add new queue</string>
+    <string name="update_queue">Update queue</string>
+    <string name="update_queue_BTN">Update queue</string>
+    <string name="customer_name">Customer Name</string>
+    <string name="properties">Properties (optional)</string>
+    <string name="add_queue_BTN">Add Queue</string>
+
+    <!--Gallery-->
+    <string name="upload_image_BTN">Upload image</string>
+    <string name="image_upload_success">Image uploaded!</string>
+    <string name="image_upload_fail">Image upload failed</string>
+
+
+
+
+
+
+
 </resources>
